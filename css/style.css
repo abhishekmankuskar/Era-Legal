@@ -20,6 +20,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #dcb26a;
+
   --secondary: #37373f;
   --success: #28a745;
   --info: #17a2b8;
@@ -73,7 +74,7 @@ body {
   line-height: 1.5;
   color: #757575;
   text-align: left;
-  background-color: #fff;
+  background-color: #082947;
   scroll-behavior: smooth;
 }
 
@@ -394,7 +395,8 @@ h6,
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.2;
-  color: #37373f;
+  /* color: #c4c128; */
+  color: #ffd858;
 }
 
 h1,
@@ -652,8 +654,6 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-
-
 
 @media (min-width: 576px) {
   .container,
@@ -10400,40 +10400,40 @@ h6 {
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   .popup-content {
-      width: 90%;
-      padding: 15px;
+    width: 90%;
+    padding: 15px;
   }
 
   .popup-content h2 {
-      font-size: 1.3rem;
+    font-size: 1.3rem;
   }
 
   .popup-content p {
-      font-size: 0.9rem;
+    font-size: 0.9rem;
   }
 
   .popup-content .btn {
-      padding: 8px 16px;
-      font-size: 0.9rem;
+    padding: 8px 16px;
+    font-size: 0.9rem;
   }
 }
 
 @media (max-width: 480px) {
   .popup-content {
-      width: 95%;
-      padding: 10px;
+    width: 95%;
+    padding: 10px;
   }
 
   .popup-content h2 {
-      font-size: 1.2rem;
+    font-size: 1.2rem;
   }
 
   .popup-content p {
-      font-size: 0.8rem;
+    font-size: 0.8rem;
   }
 
   .popup-content .btn {
-      padding: 6px 12px;
-      font-size: 0.8rem;
+    padding: 6px 12px;
+    font-size: 0.8rem;
   }
 }
