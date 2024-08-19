@@ -20,7 +20,6 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #dcb26a;
-
   --secondary: #37373f;
   --success: #28a745;
   --info: #17a2b8;
@@ -28,6 +27,7 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  --darkm:#25274D;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -171,13 +171,15 @@ sup {
 }
 
 a {
-  color: #b49c73;
+  color: #ffffff;
+  /* color: #002366; */
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
   color: #8e764c;
+  /* color: #002366; */
   text-decoration: underline;
 }
 
@@ -396,7 +398,8 @@ h6,
   font-weight: 500;
   line-height: 1.2;
   /* color: #c4c128; */
-  color: #ffd858;
+  color: #ffffff;
+  
 }
 
 h1,
