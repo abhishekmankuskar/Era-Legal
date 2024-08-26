@@ -385,13 +385,13 @@ h1,
 h2,
 h3,
 h4,
-h5,
+
 h6,
 .h1,
 .h2,
 .h3,
 .h4,
-.h5,
+
 .h6 {
   margin-bottom: 0.5rem;
   font-family: "Roboto", sans-serif;
@@ -400,6 +400,9 @@ h6,
   /* color: #c4c128; */
   color: #ffffff;
   
+}
+.h5{
+  color: #000;
 }
 
 h1,
@@ -10250,14 +10253,14 @@ h6 {
 
 .bg-action {
   background: linear-gradient(rgba(55, 55, 63, 0.7), rgba(55, 55, 63, 0.7)),
-    url(../img/carousel-2.jpg), no-repeat center center;
+    url(../img/carosel-3.jpg), no-repeat center center;
   background-size: cover;
 }
 
 .owl-carousel .owl-nav {
   position: absolute;
-  width: 100px;
-  height: 40px;
+  width: 50px;
+  height: 30px;
   top: -70px;
   left: calc(50% - 50px);
   display: flex;
